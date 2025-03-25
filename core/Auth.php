@@ -6,6 +6,7 @@ class Auth {
         $_SESSION['user_id'] = $user['id']; // Stocke l'ID de l'utilisateur dans la session
         $_SESSION['username'] = $user['username']; // Stocke le nom d'utilisateur dans la session
         $_SESSION['role'] = $user['role_id']; // Stocke le rôle de l'utilisateur dans la session
+        $_SESSION['email'] = $user['email']; // Stocke le rôle de l'utilisateur dans la session
         
     }
 

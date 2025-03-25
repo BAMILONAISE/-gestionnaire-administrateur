@@ -20,6 +20,13 @@
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
+                <label for="role" class="form-label">Rôle</label>
+                <select name="role" id="role"   class=" form-control">
+                    <option value="1">Administrateur</option>
+                    <option value="2">Client</option>
+                </select>
+            </div>
+            <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>

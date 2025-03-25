@@ -14,12 +14,21 @@
         <form method="POST" action="index.php?update ">
             <div class="mb-3">
                 <label for="username" class="form-label">Nom d'utilisateur</label>
-                <input type="text" class="form-control" id="username" name="username" value="" >
+                <input type="text" class="form-control" id="username" name="username" value=<?=$_SESSION['username']?> >
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" value="" >
+                <input type="email" class="form-control" id="email" name="email" value=<?=$_SESSION['email']?>>
             </div>
+
+            <div class="mb-3">
+                <label for="role" class="form-label">Rôle</label>
+                <select name="role" id="role"   class=" form-control" value=<?=$_SESSION['role_id']?> >
+                    <option value="1">Administrateur</option>
+                    <option value="2">Client</option>
+                </select>
+            </div>
+
             <!-- <div class="mb-3">
                 <label for="status" class="form-label">Statut</label>
                 <select class="form-control" id="status" name="status">
