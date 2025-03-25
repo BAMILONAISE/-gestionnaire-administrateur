@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Inscription</h1>
+        <h1>Ajouter un Client</h1>
         <form method="POST" action = "index.php?register">
             <div class="mb-3">
                 <label for="username" class="form-label">Nom d'utilisateur</label>
@@ -31,7 +31,7 @@
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
             
-            <button type="submit" class="btn btn-primary">S'inscrire</button>
+            <button type="submit" class="btn btn-primary">Ajouter</button>
         </form>
     </div>
 </body>
